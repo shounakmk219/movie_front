@@ -2,14 +2,16 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
+import Movies from './components/Movies';
+import MovieForm from './components/MovieForm';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Header/>
-      <Sidebar/>
+      <Movies/>
+      //<MovieForm/>
       <Footer/>
     </div>
   );
